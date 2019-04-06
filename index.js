@@ -39,7 +39,7 @@ var iLoveTheBeatles = function(number){
   do{
     i++;
     if(number > 15){
-      return arr.unshift('I love the Beatles!');
+      return arr.shift();
     }else{
       arr.push('I love the Beatles!');
       }
