@@ -39,9 +39,11 @@ var iLoveTheBeatles = function(number){
   do{
     i++;
     if(number > 15){
-      return arr[0];
+      arr.push('I love the Beatles!');
+    }else{
+      arr.push('I love the Beatles!');
     }
-   arr.push('I love the Beatles!');
+   
     } while(i <= number);
    return arr;
 };
