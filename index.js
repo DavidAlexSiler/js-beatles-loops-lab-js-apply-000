@@ -38,11 +38,8 @@ var iLoveTheBeatles = function(number){
   var i = 0;
   do{
     i++;
-    if(number > 15){
-      return arr.shift();
-    }else{
-      arr.push('I love the Beatles!');
-      }
-    } while(i <= number);
+    arr.push('I love the Beatles!');
+    }
+    while(i <= number);
    return arr;
 };
