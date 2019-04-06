@@ -42,8 +42,7 @@ var iLoveTheBeatles = function(number){
       arr.push('I love the Beatles!');
     }else{
       arr.push('I love the Beatles!');
-    }
-   
+      }
     } while(i <= number);
    return arr;
 };
