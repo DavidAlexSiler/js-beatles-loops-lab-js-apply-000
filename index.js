@@ -34,11 +34,11 @@ var johnLennonFacts = function(facts){
 };
 
 var iLoveTheBeatles = function(number){
-  var iLoveTheBeatles = [];
+  var arr = [];
   var i = 0;
   do{
     i++;
-   return('I love the Beatles!');
+   arr.push('I love the Beatles!');
     } while(i < number);
    
 };
