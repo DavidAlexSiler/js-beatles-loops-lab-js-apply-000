@@ -41,8 +41,7 @@ var iLoveTheBeatles = function(number){
     arr.push('I love the Beatles!');
      if(number > 15){
       return arr.splice(number);
-    }else{
     }
     while(i <= number);
    return arr;
-};
+}
